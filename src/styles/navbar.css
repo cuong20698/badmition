@@ -1,0 +1,74 @@
+.nav-container{
+    height: 80px;
+    width: 100%;
+    background-color: #0c4c74;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-container ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.nav-container ul li{
+    list-style: none;
+}
+
+.nav-menu{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.nav-menu img{
+    width: 2rem;
+}
+
+.nav-logo-container{
+    display: flex;
+    flex-direction: row;
+}
+.nav-logo img{
+    height: 2.5rem;
+    margin-right: 5px;
+    transform: rotate(-70deg);
+}
+.nav-title{
+    color: aliceblue;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 0 0 7px #fff;
+}
+
+.nav-title hr{
+    text-shadow: 0 0 20px #ffffff;
+}
+
+.nav-login-info{
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-info-title{
+    text-transform: capitalize;
+    color: aliceblue;
+    margin-right: 10px;
+}
+.nav-info-icon,.nav-info-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-info-icon img{
+    width: 2rem;
+}
