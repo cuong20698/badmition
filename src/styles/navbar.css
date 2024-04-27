@@ -72,3 +72,9 @@
 .nav-info-icon img{
     width: 2rem;
 }
+
+@media only screen and (max-width: 560px) {
+    .nav-logo-container{
+        display: none;
+    }
+  }
