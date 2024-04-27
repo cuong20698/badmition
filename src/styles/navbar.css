@@ -73,7 +73,7 @@
     width: 2rem;
 }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 800px) {
     .nav-logo-container{
         display: none;
     }
