@@ -1,0 +1,9 @@
+.title-container{
+    margin: 30px 0px;
+}
+
+.title-container p {
+    color: #0c4c74;
+    font-weight: bold;
+    text-transform: uppercase;
+}

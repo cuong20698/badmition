@@ -19,7 +19,7 @@ const Navbar = () => {
                         <img src={badmintionIcon} alt='badmintionIcon'></img>
                     </div>
                     <div className='nav-title'>
-                        <p>badmintion</p>
+                        <p>badminton</p>
                         <hr></hr>
                     </div>
                 </div>

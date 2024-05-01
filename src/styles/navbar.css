@@ -26,13 +26,15 @@
 }
 
 .nav-menu img{
-    width: 2rem;
+    width: 3rem;
 }
 
 .nav-logo-container{
     display: flex;
     flex-direction: row;
+    cursor: pointer;
 }
+
 .nav-logo img{
     height: 2.5rem;
     margin-right: 5px;
@@ -45,7 +47,13 @@
     letter-spacing: 0.1rem;
     font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 0 0 7px #fff;
+    text-shadow: 0 0 5px #fff;
+    transition: 0.5s;
+}
+
+
+.nav-logo-container:hover .nav-title{
+    text-shadow: 0 0 7px #fff, 0 0 10px #0ae22e;
 }
 
 .nav-title hr{
@@ -57,6 +65,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-info-title{
